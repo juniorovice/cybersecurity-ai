@@ -1,0 +1,29 @@
+{
+  "en": {
+    "title": "Cybersecurity AI",
+    "predict_button": "Predict",
+    "safe": "✅ Safe",
+    "alert": "⚠️ Attack Detected",
+    "input_ip": "Enter Source IP",
+    "input_protocol": "Protocol",
+    "language": "Choose Language"
+  },
+  "fr": {
+    "title": "Sécurité IA",
+    "predict_button": "Prédire",
+    "safe": "✅ Sûr",
+    "alert": "⚠️ Attaque détectée",
+    "input_ip": "Adresse IP Source",
+    "input_protocol": "Protocole",
+    "language": "Choisir la langue"
+  },
+  "ar": {
+    "title": "الأمن السيبراني بالذكاء الاصطناعي",
+    "predict_button": "تنبؤ",
+    "safe": "✅ آمن",
+    "alert": "⚠️ تم الكشف عن هجوم",
+    "input_ip": "أدخل عنوان IP المصدر",
+    "input_protocol": "البروتوكول",
+    "language": "اختر اللغة"
+  }
+}
