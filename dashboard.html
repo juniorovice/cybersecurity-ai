@@ -1,0 +1,23 @@
+<script>
+  // طلب إذن لعرض الإشعارات
+  if ("Notification" in window) {
+    Notification.requestPermission().then(permission => {
+      if (permission === "granted") {
+        console.log("✅ تم السماح بالتنبيهات");
+      }
+    });
+  }
+
+  // زر لاختبار الإشعار
+  function showNotification() {
+    if (Notification.permission === "granted") {
+      new Notification("🚨 Cyber Threat Detected!", {
+        body: "AI detected suspicious activity in the network.",
+        icon: "icons/icon-512.png"
+      });
+    }
+  }
+</script>
+
+<!-- زر لعرض الإشعار -->
+<button onclick="showNotification()">🔔 اختبار التنبيه</button>
